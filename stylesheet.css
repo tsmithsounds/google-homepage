@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	font-family: Arial;
+	font-size: 10pt;
+	text-align: center;	
+}
+
+/* Header Stuff */
+
+nav {
+	height: 40px
+}
+
+.boxes, .bell {
+	height: 16px;	
+}
+
+
+nav li {
+	vertical-align: middle;
+	list-style: none;
+	display: inline-block;	
+	padding: 0 0 0 10px;
+}
+
+.top_buttons {
+	float: right;
+	margin-right: 30px;
+}
+
+a {
+	color: #626262;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.sign_in {
+	height: 30px;
+	background-color: #3684FC;
+	color: #FFFFFF;
+	padding: 0 10px;
+	border-style: none;
+	border-radius: 3px;
+	font-size: 9pt;
+}
+
+
+/* Body Stuff */
+
+.main {
+	margin-top: 160px;
+}
+
+
+#text_box {
+	width: 600px;
+	height: 42px;
+	border: none;
+	margin-bottom: 30px;
+	font-size: 12pt;
+	padding-left: 15px;
+	box-shadow: 0px 0px 1px 2px #E8E8E8;
+}
+
+.google {
+	margin-bottom: 15px;
+}
+
+.buttons_container {
+	margin-bottom: 100px;
+}
+
+.search, .lucky {
+	border-radius: 2px;
+	height: 35px;
+	padding: 0 15px;
+	border: solid 1px #DEDEDE;
+	font-weight: bold;
+	font-size: 9pt;
+	color: #5B5B5B;
+	background-color: #E8E8E8;
+}
+
+.search:hover, .lucky:hover {
+	border-radius: 2px;
+	border:solid 1px #BDBDBD;
+	color: #000000;
+}
+
+
+
+/* Footer stuff */
+
+.bottom {
+	height: 42px;
+	width: 100%;
+	background-color: #E8E8E8;
+	
+}
+
+.left {
+	list-style: none;
+	vertical-align: bottom;
+	display: inline;
+	float: left;
+}
+
+.left li {
+	display: inline;
+	padding-right: 15px;
+	color: #5D5D5D;
+}
+
+.right {
+	list-style: none;
+	vertical-align: bottom;
+	float: right;
+	margin-right: 40px
+}
+
+.right li {
+	display: inline;
+	padding-left: 15px;
+	color: #5D5D5D;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
